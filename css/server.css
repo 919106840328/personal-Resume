@@ -1,0 +1,8 @@
+.leftblock .main .head{
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: url(../img/OIP3.jpg) no-repeat ;
+	background-size: cover;
+}
