@@ -1,23 +1,11 @@
-# personal-Resume
+# lyn 的个人主页
 
-静态个人主页 / 简历站点，用 HTML + CSS 写成。页脚署名为 lyn。
-
-## 页面
-
-| 文件 | 内容 |
-|------|------|
-| `index.html` | 首页介绍 |
-| `html/home.html` | Home |
-| `html/about.html` | 关于我 |
-| `html/server.html` | 兴趣 |
-| `html/success.html` | 教育 |
-| `css/` | 样式 |
-| `img/` | 图片 |
+静态前端网页：HTML + CSS + 少量 JavaScript。介绍南京理工大学软件工程学生 lyn，以及武汉、兴趣和已有项目。
 
 ## 本地打开
 
-直接用浏览器打开 `index.html` 即可，不需要构建工具。
+用浏览器打开 `index.html` 即可。
 
-```bash
-start index.html
-```
+## 线上
+
+GitHub Pages：<https://919106840328.github.io/personal-Resume/>
