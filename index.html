@@ -1,87 +1,148 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Home Page | About me</title>
-		<link rel="stylesheet" href="css/base.css" />
-		<link rel="stylesheet" href="css/index.css" />
-		
-	</head>
-	<body>
-		
-			<!--导航、简介-->
-			<div class="leftblock">
-				<!--上半部分-->
-				<div class="main">
-					
-					<div class="head">
-					<!--<img src="img/OIP.jpg" />-->	
-					</div>
-						
-					<div class="caption">
-						<a href="index.html">Home Page</a>
-					</div>
-						
-					<div class="tag">
-						<p>程序猿 | 00后 | 手残党</p>
-					</div>
-					
-					<div class="navigation">
-						<ul>
-							
-							<li><a href="html/home.html">home</a></li>
-							<li><a href="html/about.html">about me</a></li>
-							<li><a href="html/server.html">interest</a></li>
-							<li><a href="html/success.html">Education</a></li>
-								
-						</ul>
-					</div>
-					
-				</div>
-					
-				<!--下半部分-->	
-				<div  class="bottom">
-					<p>
-						Copyright &copy; 个人主页 | Powered by lyn
-					</p>
-				</div>
-				
-			</div>
-				
-			<!--主要内容-->
-			<div class="rightblock">
-				<div class="header" id="header">
-				 <h1>My introduction</h1>	
-				</div>
-					
-				<div class="main">
-					<h1>外表</h1>
-	           <h2>本人外表平平，
-	           	在此就不细说了，我深刻感受到自己的善良，于是我坚定好人有好报，因为我无意之中的善行为我赢来了许多朋友，感觉是上天的馈赠，但偶然我也觉得自己很无情，尤其是见到四肢健全、身强力壮的乞丐，我都极力装没看到。作为一男生，我又非常要脸皮，非常要面子，而且有点过火了，可能我的脸皮特别厚，所以也特别要面子，不能让我的脸皮受一点损害。</h2>
-				<h1>个性</h1>
-				<h2>本人没什么优点唯一的优点就是没有缺点本人基本全是缺点最大的缺点就是只有优点如果靓仔是一种罪，我已经罪犯滔天；如果有型是一种错，我已经一错再错；如果聪明要受惩罚，我岂不是要千刀万剐；如果谦虚都要受折磨，我又点能逃得过。</h2>
-				</div>
-					
-				<div class="footer" id="footer">
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="lyn 的个人主页：南京理工大学软件工程，来自武汉。" />
+    <title>lyn · 个人主页</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="logo" href="#top">lyn</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        菜单
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">关于</a>
+        <a href="#education">教育</a>
+        <a href="#projects">项目</a>
+        <a href="#hometown">家乡</a>
+        <a href="#interests">兴趣</a>
+      </nav>
+    </header>
 
-				</div>
-			</div>
-			
-			<!--命名锚点-->
-			<div class="pointer">
-				<div class="up">
-					<a href="#header">
-						<!--<img  src="img/head1.jpg"/>-->
-						U<!--P-->
-					</a>
-				</div>
-					
-				<div class="down">
-					<a href="#footer">
-						D<!--OWN-->
-					</a>
-				</div>
-			</div>
+    <main id="main">
+      <section class="hero" id="top">
+        <p class="eyebrow">Personal Homepage</p>
+        <h1>lyn</h1>
+        <p class="lede">南京理工大学 · 软件工程 · 武汉</p>
+        <p class="tags">
+          <span>程序猿</span>
+          <span>00后</span>
+          <span>手残党</span>
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#about">了解我</a>
+          <a class="btn ghost" href="https://github.com/919106840328" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </section>
 
-	</body>
+      <section id="about">
+        <h2>关于我</h2>
+        <div class="grid two">
+          <article class="card">
+            <h3>外表</h3>
+            <p>
+              外表平平，就不细说了。我坚信好人有好报——无意中的善行为我赢来许多朋友。
+              作为男生我特别要面子，脸皮受不得一点损害。
+            </p>
+          </article>
+          <article class="card">
+            <h3>个性</h3>
+            <p>
+              说话爱开玩笑，做事认真。正在把小学时「一定要学好计算机」的念头，
+              落成能上线的作品。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2>教育</h2>
+        <article class="card timeline">
+          <p class="meta">南京理工大学 · Nanjing University of Science and Technology</p>
+          <h3>软件工程</h3>
+          <p>
+            小学第一次接触电脑就觉得新鲜，当时就想学好计算机。高中用办公软件时，
+            遇到系统出错、文件丢失，才发现知识是零散的。那是一直放不下的遗憾，
+            所以进大学后选择软件工程，把落下的补回来。
+          </p>
+          <p>
+            课上跟着完整流程走：需求、概要与详细设计、编码、测试。希望能做出可修改、
+            可靠、可维护的软件，而不只是能跑的作业。
+          </p>
+        </article>
+      </section>
+
+      <section id="projects">
+        <h2>项目</h2>
+        <div class="grid two">
+          <article class="card project">
+            <p class="meta">Android · Kotlin</p>
+            <h3>热干面传奇</h3>
+            <p>武汉早餐档题材的时间管理小游戏，对标《沙威玛传奇》，用 Jetpack Compose 做。</p>
+            <a href="https://github.com/919106840328/ReganmianLegend" target="_blank" rel="noopener">查看仓库</a>
+          </article>
+          <article class="card project">
+            <p class="meta">Qt / Python</p>
+            <h3>计算器 + 连连看</h3>
+            <p>课程作业：桌面计算器，以及宝可梦贴图的连连看。仓库里还有可直接运行的 Python 版。</p>
+            <a href="https://github.com/919106840328/star1-calculator-lianliankan" target="_blank" rel="noopener">查看仓库</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="hometown">
+        <h2>家乡 · 武汉</h2>
+        <article class="card hometown">
+          <p>
+            「九省通衢地，骑鹤入江城」说的就是武汉：自古交通通达多省，长江穿城而过。
+            李白写过「黄鹤楼中吹玉笛，江城五月落梅花」。现在的武汉更是中部交通中心。
+          </p>
+          <p>
+            我最喜欢东湖：造型奇特的石桥、绿油油的大树、平坦的绿道，还有小动物场馆。
+            吃的更不必说——汤包、热干面、豆皮。热干面要数蔡林记，清晨门前就排满了人，
+            面一出锅，香味好像整条街都能闻到。
+          </p>
+          <p class="invite">欢迎来武汉玩。</p>
+          <img
+            src="img/R375ce7e57d8f917393a111d05df4b567.jpg"
+            alt="武汉美食"
+            width="800"
+            height="500"
+          />
+        </article>
+      </section>
+
+      <section id="interests">
+        <h2>兴趣</h2>
+        <div class="grid two">
+          <article class="card">
+            <h3>画画</h3>
+            <p>
+              自封「资深」绘画爱好者，只因为拿笔涂鸦已经很多年。没有系统训练，
+              但现在还算画得行。
+            </p>
+          </article>
+          <article class="card">
+            <h3>读书</h3>
+            <p>书带着我到处逛：解谜、指路、当过童年的小伙伴。现在也还在看。</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 个人主页 · Powered by lyn</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
