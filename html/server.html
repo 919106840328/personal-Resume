@@ -2,11 +2,52 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=../index.html#interests" />
-    <title>Redirect</title>
-    <link rel="canonical" href="../index.html#interests" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lyn · 兴趣</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <p><a href="../index.html#interests">前往新版兴趣</a></p>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="logo" href="../index.html">lyn</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="success.html">教育</a>
+        <a href="projects.html">项目</a>
+        <a href="home.html">家乡</a>
+        <a href="server.html">兴趣</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <p class="eyebrow">Interests</p>
+      <h1 class="page-title">兴趣</h1>
+      <div class="grid two">
+        <article class="card">
+          <h3>画画</h3>
+          <p>
+            自封「资深」绘画爱好者，只因为拿笔涂鸦已经很多年。没有系统训练，
+            但现在还算画得行。
+          </p>
+        </article>
+        <article class="card">
+          <h3>读书</h3>
+          <p>书带着我到处逛：解谜、指路、当过童年的小伙伴。现在也还在看。</p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 个人主页 · Powered by lyn</p>
+    </footer>
+    <script src="../js/main.js"></script>
   </body>
 </html>

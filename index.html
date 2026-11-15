@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="lyn 的个人主页：南京理工大学软件工程，来自武汉。" />
-    <title>lyn · 个人主页</title>
+    <title>lyn · 首页</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,21 +16,20 @@
   <body>
     <a class="skip" href="#main">跳到正文</a>
     <header class="site-header">
-      <a class="logo" href="#top">lyn</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        菜单
-      </button>
+      <a class="logo" href="index.html">lyn</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
       <nav id="site-nav" class="site-nav">
-        <a href="#about">关于</a>
-        <a href="#education">教育</a>
-        <a href="#projects">项目</a>
-        <a href="#hometown">家乡</a>
-        <a href="#interests">兴趣</a>
+        <a href="index.html">首页</a>
+        <a href="html/about.html">关于</a>
+        <a href="html/success.html">教育</a>
+        <a href="html/projects.html">项目</a>
+        <a href="html/home.html">家乡</a>
+        <a href="html/server.html">兴趣</a>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero" id="top">
+      <section class="hero">
         <p class="eyebrow">Personal Homepage</p>
         <h1>lyn</h1>
         <p class="lede">南京理工大学 · 软件工程 · 武汉</p>
@@ -40,102 +39,8 @@
           <span>手残党</span>
         </p>
         <div class="hero-actions">
-          <a class="btn primary" href="#about">了解我</a>
+          <a class="btn primary" href="html/about.html">关于我</a>
           <a class="btn ghost" href="https://github.com/919106840328" target="_blank" rel="noopener">GitHub</a>
-        </div>
-      </section>
-
-      <section id="about">
-        <h2>关于我</h2>
-        <div class="grid two">
-          <article class="card">
-            <h3>外表</h3>
-            <p>
-              外表平平，就不细说了。我坚信好人有好报——无意中的善行为我赢来许多朋友。
-              作为男生我特别要面子，脸皮受不得一点损害。
-            </p>
-          </article>
-          <article class="card">
-            <h3>个性</h3>
-            <p>
-              说话爱开玩笑，做事认真。正在把小学时「一定要学好计算机」的念头，
-              落成能上线的作品。
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="education">
-        <h2>教育</h2>
-        <article class="card timeline">
-          <p class="meta">南京理工大学 · Nanjing University of Science and Technology</p>
-          <h3>软件工程</h3>
-          <p>
-            小学第一次接触电脑就觉得新鲜，当时就想学好计算机。高中用办公软件时，
-            遇到系统出错、文件丢失，才发现知识是零散的。那是一直放不下的遗憾，
-            所以进大学后选择软件工程，把落下的补回来。
-          </p>
-          <p>
-            课上跟着完整流程走：需求、概要与详细设计、编码、测试。希望能做出可修改、
-            可靠、可维护的软件，而不只是能跑的作业。
-          </p>
-        </article>
-      </section>
-
-      <section id="projects">
-        <h2>项目</h2>
-        <div class="grid two">
-          <article class="card project">
-            <p class="meta">Android · Kotlin</p>
-            <h3>热干面传奇</h3>
-            <p>武汉早餐档题材的时间管理小游戏，对标《沙威玛传奇》，用 Jetpack Compose 做。</p>
-            <a href="https://github.com/919106840328/ReganmianLegend" target="_blank" rel="noopener">查看仓库</a>
-          </article>
-          <article class="card project">
-            <p class="meta">Qt / Python</p>
-            <h3>计算器 + 连连看</h3>
-            <p>课程作业：桌面计算器，以及宝可梦贴图的连连看。仓库里还有可直接运行的 Python 版。</p>
-            <a href="https://github.com/919106840328/star1-calculator-lianliankan" target="_blank" rel="noopener">查看仓库</a>
-          </article>
-        </div>
-      </section>
-
-      <section id="hometown">
-        <h2>家乡 · 武汉</h2>
-        <article class="card hometown">
-          <p>
-            「九省通衢地，骑鹤入江城」说的就是武汉：自古交通通达多省，长江穿城而过。
-            李白写过「黄鹤楼中吹玉笛，江城五月落梅花」。现在的武汉更是中部交通中心。
-          </p>
-          <p>
-            我最喜欢东湖：造型奇特的石桥、绿油油的大树、平坦的绿道，还有小动物场馆。
-            吃的更不必说——汤包、热干面、豆皮。热干面要数蔡林记，清晨门前就排满了人，
-            面一出锅，香味好像整条街都能闻到。
-          </p>
-          <p class="invite">欢迎来武汉玩。</p>
-          <img
-            src="img/R375ce7e57d8f917393a111d05df4b567.jpg"
-            alt="武汉美食"
-            width="800"
-            height="500"
-          />
-        </article>
-      </section>
-
-      <section id="interests">
-        <h2>兴趣</h2>
-        <div class="grid two">
-          <article class="card">
-            <h3>画画</h3>
-            <p>
-              自封「资深」绘画爱好者，只因为拿笔涂鸦已经很多年。没有系统训练，
-              但现在还算画得行。
-            </p>
-          </article>
-          <article class="card">
-            <h3>读书</h3>
-            <p>书带着我到处逛：解谜、指路、当过童年的小伙伴。现在也还在看。</p>
-          </article>
         </div>
       </section>
     </main>

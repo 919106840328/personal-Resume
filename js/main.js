@@ -8,9 +8,9 @@ if (toggle && nav) {
   });
 
   nav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      nav.classList.remove("open");
-      toggle.setAttribute("aria-expanded", "false");
-    });
+    const target = new URL(link.href, location.href);
+    if (target.pathname === location.pathname) {
+      link.classList.add("active");
+    }
   });
 }

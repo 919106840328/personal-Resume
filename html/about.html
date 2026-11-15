@@ -2,11 +2,55 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=../index.html#about" />
-    <title>Redirect</title>
-    <link rel="canonical" href="../index.html#about" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lyn · 关于我</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <p><a href="../index.html#about">前往新版关于我</a></p>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="logo" href="../index.html">lyn</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="success.html">教育</a>
+        <a href="projects.html">项目</a>
+        <a href="home.html">家乡</a>
+        <a href="server.html">兴趣</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <p class="eyebrow">About</p>
+      <h1 class="page-title">关于我</h1>
+      <div class="grid two">
+        <article class="card">
+          <h3>外表</h3>
+          <p>
+            外表平平，就不细说了。我坚信好人有好报——无意中的善行为我赢来许多朋友。
+            作为男生我特别要面子，脸皮受不得一点损害。
+          </p>
+        </article>
+        <article class="card">
+          <h3>个性</h3>
+          <p>
+            说话爱开玩笑，做事认真。正在把小学时「一定要学好计算机」的念头，
+            落成能上线的作品。
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 个人主页 · Powered by lyn</p>
+    </footer>
+    <script src="../js/main.js"></script>
   </body>
 </html>

@@ -2,11 +2,52 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="refresh" content="0; url=../index.html#education" />
-    <title>Redirect</title>
-    <link rel="canonical" href="../index.html#education" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lyn · 教育</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=ZCOOL+XiaoWei&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <p><a href="../index.html#education">前往新版教育</a></p>
+    <a class="skip" href="#main">跳到正文</a>
+    <header class="site-header">
+      <a class="logo" href="../index.html">lyn</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">菜单</button>
+      <nav id="site-nav" class="site-nav">
+        <a href="../index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="success.html">教育</a>
+        <a href="projects.html">项目</a>
+        <a href="home.html">家乡</a>
+        <a href="server.html">兴趣</a>
+      </nav>
+    </header>
+
+    <main id="main" class="page">
+      <p class="eyebrow">Education</p>
+      <h1 class="page-title">教育</h1>
+      <article class="card timeline">
+        <p class="meta">南京理工大学 · Nanjing University of Science and Technology</p>
+        <h3>软件工程</h3>
+        <p>
+          小学第一次接触电脑就觉得新鲜，当时就想学好计算机。高中用办公软件时，
+          遇到系统出错、文件丢失，才发现知识是零散的。那是一直放不下的遗憾，
+          所以进大学后选择软件工程，把落下的补回来。
+        </p>
+        <p>
+          课上跟着完整流程走：需求、概要与详细设计、编码、测试。希望能做出可修改、
+          可靠、可维护的软件，而不只是能跑的作业。
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 个人主页 · Powered by lyn</p>
+    </footer>
+    <script src="../js/main.js"></script>
   </body>
 </html>
